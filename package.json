@@ -1,7 +1,7 @@
 {
-	"name": "scalaxy.com",
+	"name": "todo-project.test",
 	"version": "1.0.0",
-	"description": "scalaxy hosting website",
+	"description": "test project",
 	"private": true,
 	"scripts": {
 		"dev": "webpack --mode=development",

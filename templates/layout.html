@@ -7,19 +7,12 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-	<link rel="manifest" href="/images/site.webmanifest">
-	<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#a1339b">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="theme-color" content="#ffffff">
 	<!--<link rel="shortcut icon" href="/images/Favicon@2x.png" type="image/png">-->
-	<title>BrainQ - Software Company - <%= htmlWebpackPlugin.options.title %></title>
+	<title>todo-project.test</title>
 </head>
 <body>
 
-<main id="app" v-bind:class="mainClass">
+<main id="app">
 	${_.template(require('./views/partials/header.html'))()}
 
 	<% for (var ind in htmlWebpackPlugin.options.inserts.content ) { %>
