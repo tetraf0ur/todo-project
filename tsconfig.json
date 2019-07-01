@@ -1,0 +1,18 @@
+{
+	"compilerOptions" : {
+		"outDir" : "./dist/public",
+		"strict" : true,
+		"sourceMap" : true,
+		"noImplicitReturns" : true,
+		"module" : "es6",
+		"moduleResolution" : "node",
+		"target" : "es6"
+	},
+	"include" : [
+		"src/**/*.ts"
+	],
+	"exclude" : [
+		"src/server/**/*",
+		"node_modules"
+	]
+}
